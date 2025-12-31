@@ -99,3 +99,17 @@ footer {
     margin: 10px 0;
   }
 }
+.box {
+  background: #ffffff;
+  border: 1px solid #e5e7eb;
+  border-radius: 12px;
+  padding: 20px;
+  margin-bottom: 20px;
+  transition: 0.3s;
+}
+
+/* تأثير خفيف عند المرور */
+.box:hover {
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+  transform: translateY(-4px);
+}
