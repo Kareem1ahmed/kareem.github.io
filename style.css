@@ -37,7 +37,6 @@ body {
 .circle-container {
   width: 150px;
   height: 15ء0px;
-   max-width: 100%;
   border-radius: 50%;
   overflow: hidden; /* يخلي الصورة تملأ الدايرة بالكامل */
   display: flex;
@@ -51,8 +50,9 @@ body {
 }
 
 .profile-pic {
-  width: 100%;
+  width:auto;
   height: 100%;
+  max-width: 100%;
   object-fit: cover; /* الصورة تملأ الدايرة بالكامل */
   border-radius: 50%;
 }
