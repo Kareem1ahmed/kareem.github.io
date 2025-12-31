@@ -1,73 +1,50 @@
-/* ===== Global Reset (آمن) ===== */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
-  font-family: "Segoe UI", Arial, sans-serif;
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
 }
 
-/* ===== Body ===== */
+/* خلفية الصفحة */
 body {
-  background: #f4f6f9;
-  color: #1f2937;
+  background: #38bdf8; /* سماوي */
+  color: #000;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 
-/* ===== Layout ===== */
-.container {
+/* الكونتينر */
+.main {
   width: 90%;
-  max-width: 1100px;
-  margin: auto;
-  padding: 40px 0;
+  max-width: 900px;
 }
 
-/* ===== Sections ===== */
-.section {
-  margin-bottom: 40px;
+/* العنوان الدائري 3D */
+.circle-title {
+  width: 180px;
+  height: 180px;
+  margin: 0 auto 30px;
+  background: linear-gradient(145deg, #7dd3fc, #0ea5e9);
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 800;
+  font-size: 20px;
+  color: #000;
+  box-shadow:
+    0 15px 30px rgba(0,0,0,0.25),
+    inset 0 5px 10px rgba(255,255,255,0.6);
 }
 
-.section-title {
-  font-size: 22px;
+/* النص */
+.content p {
+  font-size: 16px;
   font-weight: 600;
-  margin-bottom: 20px;
-  border-left: 5px solid #2563eb;
-  padding-left: 12px;
+  line-height: 1.8;
+  margin-bottom: 15px;
 }
 
-/* ===== Cards ===== */
-.card {
-  background: #ffffff;
-  border-radius: 14px;
-  padding: 24px;
-  margin-bottom: 20px;
-  box-shadow: 0 15px 35px rgba(0,0,0,0.08);
-  transition: 0.3s;
-}
-
-.card:hover {
-  transform: translateY(-6px);
-  box-shadow: 0 25px 45px rgba(0,0,0,0.12);
-}
-
-/* ===== Text ===== */
-.card h3 {
-  font-size: 18px;
-  margin-bottom: 10px;
-}
-
-.card p {
-  font-size: 14px;
-  line-height: 1.7;
-  color: #4b5563;
-}
-
-/* ===== Buttons ===== */
-.btn {
-  display: inline-block;
-  background: linear-gradient(135deg, #2563eb, #1d4ed8);
-  color: #fff;
-  padding: 10px 22px;
-  border-radius: 999px;
-  text-decoration: none;
-  font-size: 14px;
-  margin-top: 10px;
-}
