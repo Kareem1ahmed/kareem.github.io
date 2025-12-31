@@ -35,8 +35,9 @@ body {
 
 /* الدايرة مع الصورة بالكامل */
 .circle-container {
-  width: 180px;
-  height: 180px;
+  width: 150px;
+  height: 15ء0px;
+   max-width: 100%;
   border-radius: 50%;
   overflow: hidden; /* يخلي الصورة تملأ الدايرة بالكامل */
   display: flex;
