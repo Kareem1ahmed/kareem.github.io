@@ -1,0 +1,101 @@
+/* Reset بسيط */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Tahoma, Arial, sans-serif;
+}
+
+/* ألوان عامة */
+:root {
+  --main-color: #0d6efd;
+  --dark-color: #0f172a;
+  --light-color: #f8fafc;
+  --text-color: #334155;
+}
+
+/* الجسم */
+body {
+  background-color: var(--light-color);
+  color: var(--text-color);
+  line-height: 1.6;
+}
+
+/* الهيدر */
+header {
+  background: var(--dark-color);
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+/* النافبار */
+nav {
+  background: #020617;
+  padding: 10px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+nav a:hover {
+  color: var(--main-color);
+}
+
+/* الكونتينر */
+.container {
+  width: 90%;
+  max-width: 1100px;
+  margin: auto;
+  padding: 20px 0;
+}
+
+/* الكروت */
+.card {
+  background: white;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+  margin-bottom: 20px;
+}
+
+/* الأزرار */
+.btn {
+  display: inline-block;
+  background: var(--main-color);
+  color: white;
+  padding: 10px 18px;
+  border-radius: 8px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  background: #084298;
+}
+
+/* الفوتر */
+footer {
+  background: var(--dark-color);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  margin-top: 40px;
+}
+
+/* ريسبونسيف */
+@media (max-width: 768px) {
+  nav a {
+    display: block;
+    margin: 10px 0;
+  }
+}
