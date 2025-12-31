@@ -50,9 +50,9 @@ body {
 }
 
 .profile-pic {
-  width:80;
-  height: 80%;
-  max-width: 80%;
+  width:100;
+  height: 100%;
+  max-width: 100%;
   object-fit: cover; /* الصورة تملأ الدايرة بالكامل */
   border-radius: 50%;
 }
