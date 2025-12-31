@@ -113,3 +113,24 @@ footer {
   box-shadow: 0 10px 25px rgba(0,0,0,0.1);
   transform: translateY(-4px);
 }
+.work-box {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  border-radius: 6px;
+  padding: 18px 20px;
+  margin-bottom: 16px;
+}
+
+.work-box h3 {
+  font-size: 16px;
+  font-weight: 600;
+  color: #111827;
+  margin-bottom: 8px;
+}
+
+.work-box p {
+  font-size: 14px;
+  color: #374151;
+  line-height: 1.6;
+}
+
