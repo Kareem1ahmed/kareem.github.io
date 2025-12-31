@@ -5,6 +5,13 @@
   box-sizing: border-box;
   font-family: "Segoe UI", Tahoma, Arial, sans-serif;
 }
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%; /* دائري */
+  object-fit: cover;  /* يحافظ على أبعاد الصورة */
+  border: 4px solid #fff; /* اختياري لإطار جميل */
+}
 
 /* Body */
 body {
